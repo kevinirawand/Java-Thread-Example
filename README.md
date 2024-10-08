@@ -13,6 +13,7 @@ Setup installation
     jar -cvf app.jar -C out .
     jar -cvf app.jar out/org/example/Main.class
     docker build --no-cache -t thread_java .
+    docker run thread_java
 ```
 
     
