@@ -1,5 +1,5 @@
 Setup:
-javac -d out src/main/java/org/example/Main.java
-jar -cvf app.jar out/org/example/Main.class
-docker build --no-cache -t thread_java .
-docker run thread_java
+/njavac -d out src/main/java/org/example/Main.java
+/njar -cvf app.jar out/org/example/Main.class
+/ndocker build --no-cache -t thread_java .
+/ndocker run thread_java
